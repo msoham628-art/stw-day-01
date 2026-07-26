@@ -72,7 +72,7 @@ else{
 }
 
 const marks = {
-    maths: 90,
+    maths: 40,
     physics: 80,
     chemistry: 70,
     practical: {
