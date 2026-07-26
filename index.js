@@ -42,7 +42,8 @@ const obj ={
         firstName: "Soham",
         lastName: "Mondal"
     },
-    location: "Kolkata",
+    age: 21,
+    school: "XYZ School",
     isStudent: true
 }
 console.log(typeof obj == typeof array)
