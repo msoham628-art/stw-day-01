@@ -46,6 +46,7 @@ const obj ={
     school: "ABC School",
     isStudent: false
 }
+//new comment
 console.log(typeof obj == typeof array)
 
 const abc = null
