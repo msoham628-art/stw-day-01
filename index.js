@@ -46,6 +46,7 @@ const obj ={
     school: "ABC School",
     isStudent: false
 }
+//new comment
 console.log(typeof obj == typeof array)
 
 const abc = null
@@ -73,7 +74,7 @@ else{
 }
 
 const marks = {
-    maths: 90,
+    maths: 120,
     physics: 80,
     chemistry: 70,
     practical: {
