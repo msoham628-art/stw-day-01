@@ -42,9 +42,11 @@ const obj ={
         firstName: "Soham",
         lastName: "Mondal"
     },
-    location: "Kolkata",
-    isStudent: true
+    age: 25,
+    school: "ABC School",
+    isStudent: false
 }
+//new comment
 console.log(typeof obj == typeof array)
 
 const abc = null
@@ -72,7 +74,11 @@ else{
 }
 
 const marks = {
+<<<<<<< HEAD
     maths: 40,
+=======
+    maths: 120,
+>>>>>>> a15cc254133cd2fbeedb778f798e750f1f3d2163
     physics: 80,
     chemistry: 70,
     practical: {
