@@ -42,7 +42,7 @@ const obj ={
         firstName: "Soham",
         lastName: "Mondal"
     },
-    location: "India",
+    location: "Kolkata",
     isStudent: true
 }
 console.log(typeof obj == typeof array)
@@ -53,4 +53,42 @@ console.log(abc===def)
 console.log(typeof def)
 console.log(obj.name.firstName)
 console.log(obj.name.lastName)
-console.log(obj.school.name)
+//console.log(obj.school.name)
+console.log('5'!==5)
+console.log('5'!=5)
+console.log('5'!==5||obj.school.name)
+
+if(2>5){
+    console.log("Mathematics is wrong")
+}   
+else{
+    console.log("This will print")
+    const str = ''
+    let confusion = 5/0
+    console.log(confusion)
+    if(str || confusion){
+        console.log("Will it print?")
+    }
+}
+
+const marks = {
+    maths: 90,
+    physics: 80,
+    chemistry: 70,
+    practical: {
+        physics: 60,
+    }
+}
+
+let total = marks.maths + marks.physics + marks.chemistry
+total += (marks.practical && marks.practical.physics)||0
+console.log(total)
+
+console.log(true+1)
+console.log(true==1)
+
+console.log(5+parseInt('4a'))
+console.log((0.1+0.2).toFixed(2))
+
+const newChar = 'Arnab'
+console.log(newChar.toLowerCase()=='arnab')

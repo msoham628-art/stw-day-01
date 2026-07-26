@@ -2,18 +2,18 @@ h1{
     color: blue;
     text-align: center;
     text-decoration: underline;
-    background-color: cornflowerblue;
+    background-color: rgb(142, 194, 249);
 }
 .intro{
     color: green;
     font-size: 1.2em;
-    background-color: lightgreen;
+    background-color: rgb(190, 204, 68);
     text-align: center;
 }
 h2{
     color: red;
     text-align: center;
     text-decoration: underline;
-    background-color: lightcoral;
+    background-color: rgb(202, 157, 157);
     font-style: italic;
 }
