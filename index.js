@@ -74,7 +74,11 @@ else{
 }
 
 const marks = {
+<<<<<<< HEAD
+    maths: 40,
+=======
     maths: 120,
+>>>>>>> a15cc254133cd2fbeedb778f798e750f1f3d2163
     physics: 80,
     chemistry: 70,
     practical: {
