@@ -1,19 +1,24 @@
 h1{
-    color: blue;
+    color: rgb(255, 0, 136);
     text-align: center;
     text-decoration: underline;
-    background-color: rgb(142, 194, 249);
 }
 .intro{
     color: green;
-    font-size: 1.2em;
-    background-color: rgb(190, 204, 68);
+    font-size: 20px;
     text-align: center;
+    font-style: algebraic;
 }
 h2{
     color: red;
     text-align: center;
     text-decoration: underline;
-    background-color: rgb(202, 157, 157);
+    background-color: rgb(240, 191, 148);
     font-style: italic;
+}
+.body{
+    color: rgb(17, 15, 22);
+    font-size: 16px;
+    text-align: justify;
+    font-style: normal;
 }
