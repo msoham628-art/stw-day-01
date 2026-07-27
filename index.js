@@ -74,11 +74,7 @@ else{
 }
 
 const marks = {
-<<<<<<< HEAD
     maths: 40,
-=======
-    maths: 120,
->>>>>>> a15cc254133cd2fbeedb778f798e750f1f3d2163
     physics: 80,
     chemistry: 70,
     practical: {
@@ -98,3 +94,6 @@ console.log((0.1+0.2).toFixed(2))
 
 const newChar = 'Arnab'
 console.log(newChar.toLowerCase()=='arnab')
+console.log(newChar.toUpperCase()=='ARNAB')
+
+console.log((0.099+0.002).toFixed(3))
